@@ -13,3 +13,5 @@ https://arxiv.org/abs/2104.09864
 from Lucidrains (Phil Wang)
 
 [x-transformers](https://github.com/lucidrains/x-transformers)
+
+Adapted for HuggingFace Transformers LLaMa
