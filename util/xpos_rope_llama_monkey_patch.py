@@ -85,7 +85,7 @@ def apply_rotary_pos_emb(q, k, freqs, scale=1, position_ids=None):
         scale = scale[position_ids, :]
 
     q_embed = (q * freqs.cos() * scale) + (rotate_half(q) * freqs.sin() * scale)
-    k_embed = (k * freqs.cos() * scale) + (rotate_half(k) * freqs.sin() * scale)
+    k_embed = (k * freqs.cos() * 1/scale) + (rotate_half(k) * freqs.sin() * 1/scale)
 
     return q_embed, k_embed
 
