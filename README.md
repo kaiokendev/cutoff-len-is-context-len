@@ -15,3 +15,6 @@ from Lucidrains (Phil Wang)
 [x-transformers](https://github.com/lucidrains/x-transformers)
 
 Adapted for HuggingFace Transformers LLaMa
+
+## Dilated RoPE Explanation
+https://kaiokendev.github.io/til#extending-context-to-8k
